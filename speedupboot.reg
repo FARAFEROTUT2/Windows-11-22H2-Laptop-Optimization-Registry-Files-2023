@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Dfrg\BootOptimizeFunction]
+
+"Enable"="Y"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+
+"EnableSuperfetch"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+
+"EnablePMTUDiscovery"=dword:00000001
+
+"Tcp1323Opts"=dword:00000001
+
+"SackOpts"=dword:00000001
+
+"TcpWindowSize"=dword:0005ae4c
+
+"GlobalMaxTcpWindowSize"=dword:0005ae4c
+
+"TcpTimedWaitDelay"=dword:0000001e
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+
+"StartupDelayInMSec"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+
+"AutoEndTasks"="1"
+
+"HungAppTimeout"="1000"
+
+"LowLevelHooksTimeout"="1000"
+
+"MenuShowDelay"="8"
+
+"WaitToKillAppTimeout"="2000"
+
+"WaitToKillServiceTimeout"="2000"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+
+"VerboseStatus"=dword:00000001

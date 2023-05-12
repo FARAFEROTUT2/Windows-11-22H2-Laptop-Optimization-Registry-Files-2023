@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+
+"ClearPageFileAtShutdown"=dword:00000001
+"DisablePagingExecutive"=dword:00000001
+"LargeSystemCache"=dword:00000001
+"IOPageLockLimit"=dword:00001000
+"SystemPages"=dword:00000000
+"SecondLevelDataCache"=dword:00000000

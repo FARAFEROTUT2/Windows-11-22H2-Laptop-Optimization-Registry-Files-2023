@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; Disable first run wizard
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"DisableFirstRunWizard"=dword:00000001
+
+; Set default search engine to Google
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\SearchScopes]
+"DefaultSearchProviderEnabled"=dword:00000001
+"DefaultSearchProviderSearchURL"="https://www.google.com/search?q={searchTerms}"
+"DefaultSearchProviderSuggestURL"="https://www.google.com/complete/search?q={searchTerms}&client=ie8&mw={ie:maxWidth}&sh={ie:sectionHeight}&rh={ie:rowHeight}&inputencoding={inputEncoding}&outputencoding={outputEncoding}"
+
+; Set homepage to Google
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\Main]
+"HomePage"="https://www.google.com/"
+
+; Disable extensions
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionSettings]
+"ExtensionInstallSources"=dword:00000002
+"ExtensionSettings"=dword:00000002
+
+; Set zoom level to 125%
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Zoom]
+"ZoomDisabled"=dword:00000000
+"ZoomFactor"=dword:0000007d
+
+; Disable PDF viewer
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\EdgePDF]
+"Disabled"=dword:00000001

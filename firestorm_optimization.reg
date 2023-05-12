@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Firestorm]
+"DisableLLFX"=dword:00000001
+"RenderDeferred"=dword:00000001
+"RenderGlow"=dword:00000000
+"RenderShadowDetail"=dword:00000001
